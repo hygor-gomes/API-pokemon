@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(109, 140, 240), white);
+    min-height: 100vh;
+    text-align: center;
+}
+
+main {
+    display: inline-block;
+    margin-top: 5%;
+    padding: 10px;
+    position: relative;
+}
+
+.pokemon_name{
+    position: absolute;
+    bottom: 11%;
+    left: 35%;
+    font-weight: 800;
+    color:black;
+    text-transform: capitalize;
+    font-size: clamp(20px, 10vw, 25px);
+
+}
+
+.pokemon_image{
+    position: absolute;
+    left: 35%;
+    bottom: 40%;
+    max-width: 100%;
+    width: 30%;
+}
+
+.background{
+    width: 100%;
+}
+
+.form{
+    position: absolute;
+    top: 98%;
+    right: 50%;
+  }
+
+.buttons{
+    position: absolute;
+    width: 50%;
+    right: 1%;
+    top: 100%;
+    display: flex;
+    gap: 20px;
+}
+.button {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    
+  }
